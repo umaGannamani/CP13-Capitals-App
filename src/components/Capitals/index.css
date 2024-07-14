@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.card-container {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  width: 96%;
+  padding: 20px;
+  max-width: 350px;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+question-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.capital-select {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  padding: 6px;
+  outline: none;
+}
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+.question {
+  color: #000000;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.country {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+@media (min-width: 786px) {
+  .card-container {
+    padding: 50px;
+    max-width: 550px;
+  }
+  .heading {
+    text-align: left;
+    font-size: 30px;
+  }
+  .capital-select {
+    padding: 12px;
+    width: 180px;
+    font-size: 15px;
+  }
+  .option {
+    font-size: 15px;
+  }
+  .question {
+    font-size: 15px;
+  }
+  .country {
+    font-family: 'Roboto';
+    font-size: 25px;
+  }
+}
